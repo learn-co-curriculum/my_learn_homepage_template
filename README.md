@@ -1,7 +1,7 @@
 <!--- Calendar iframe goes below --->
-<iframe src="https://calendar.google.com/calendar/embed?src=flatironschool.com_f55bt4vkeu2aahdebb9dkm7tcs%40group.calendar.google.com&ctz=America%2FNew York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="insert_source_url" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
-- Note: calendar times are in Eastern Standard Time (EST).
+- Note: calendar times are in {Eastern Standard Time (EST)}
 
 # ANNOUNCEMENTS
 
@@ -17,8 +17,6 @@ ___
 
 ## STUDY GROUP RECORDINGS & NOTES REPOS
 
-- **PART TIME LINKS:**
-
   - 📺[YOUTUBE STUDY GROUP PLAYLIST: online-ds-PT-100719](https://www.youtube.com/playlist?list=PLFknVelSJiSydTybrkhr3dfRAFCyzAfC6)
 
   - 📓[STUDY GROUP NOTES REPO: online-ds-PT-100719](https://github.com/jirvingphd/fsds_pt_100719_cohort_notes)
@@ -26,14 +24,6 @@ ___
   - 📆[GOOGLE CALENDAR LINK - online-ds-PT-100719](https://calendar.google.com/calendar/embed?src=flatironschool.com_f55bt4vkeu2aahdebb9dkm7tcs%40group.calendar.google.com&ctz=America%2FNew_York))
 
   - 📺👨‍🎓 [Peer2Peer Student-Led Study Groups](https://www.youtube.com/playlist?list=PL1K0TPJ_PSFj5eY-01MH3-rjYH3qz_qfi)
-
-- **FULL TIME LINKS:**
-
-  - 📺[YOUTUBE STUDY GROUP PLAYLIST: online-ds-FT-100719](https://www.youtube.com/playlist?list=PLFknVelSJiSyE_BQomZ8mFFrCfk1H9hfh)
-
-  - 📓[STUDY GROUP NOTES REPO: online-ds-FT-100719](https://github.com/jirvingphd/fsds_100719_cohort_notes)
-
-  - 📆[GOOGLE CALENDAR LINK - online-ds-FT-100719](https://calendar.google.com/calendar?cid=ZmxhdGlyb25zY2hvb2wuY29tXzQ5bWE2MzMwYWY4Z2tqMnBlOWQ4NzluN2pjQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
 
 - **NOTE RE NOTES REPOS:**
 
