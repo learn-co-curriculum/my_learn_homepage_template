@@ -5,25 +5,26 @@
 
 # ANNOUNCEMENTS
 
-## 03/04/20: Study Group time/style survey
+> ## WELCOME WEEK:
+- Welcome Events
+    - Environment Set-Up: xx/xx/xx @ xx am 
+    - Orientation: xx/xx/xx @ xx am 
+    - Meet Your Classmates: xx/xx/xx @ xx am 
 
-- [Please fill out this short survey about the time slot and format of our study groups.](https://forms.gle/ndhEdV5HZ2bTpyw48)
-- This is a different form than the end-of-module survey and is only about study groups.
-  - Thanks!
-
+- Study Groups:
+    - Tues - Thurs
+    - 12 pm
 ___
 
 # IMPORTANT LINKS
 
 ## STUDY GROUP RECORDINGS & NOTES REPOS
 
-  - 📺[YOUTUBE STUDY GROUP PLAYLIST: online-ds-PT-100719](https://www.youtube.com/playlist?list=PLFknVelSJiSydTybrkhr3dfRAFCyzAfC6)
+  - 📺[YOUTUBE STUDY GROUP PLAYLIST: <COHORT NAME>]() <ADD URL>
 
-  - 📓[STUDY GROUP NOTES REPO: online-ds-PT-100719](https://github.com/jirvingphd/fsds_pt_100719_cohort_notes)
+  - 📓[STUDY GROUP NOTES REPO: <COHORT NAME>]()  <ADD URL>
 
-  - 📆[GOOGLE CALENDAR LINK - online-ds-PT-100719](https://calendar.google.com/calendar/embed?src=flatironschool.com_f55bt4vkeu2aahdebb9dkm7tcs%40group.calendar.google.com&ctz=America%2FNew_York))
-
-  - 📺👨‍🎓 [Peer2Peer Student-Led Study Groups](https://www.youtube.com/playlist?list=PL1K0TPJ_PSFj5eY-01MH3-rjYH3qz_qfi)
+  - 📆[GOOGLE CALENDAR LINK - <COHORT NAME>]()  <ADD URL>
 
 - **NOTE RE NOTES REPOS:**
 
@@ -71,9 +72,7 @@ I. STUDENT RESOURCES GOOGLE DRIVE FOLDER CONTENTS
 
 II. MODULE PROJECT INFO/PROCESS
 
-III. How to: install updated `learn-env`
-
-VI. How to: install and activate Jupyter Notebook Extensions
+III. How to: install and activate Jupyter Notebook Extensions
 
 V. COMMON COMMANDS
 
@@ -89,20 +88,8 @@ ___
 
 - **TWO MUST-SEE DOCS IN MAIN FOLDER:**
   1. [Master Python Data Science Cheatsheets PDF](https://drive.google.com/open?id=1PxRAhlaK7ucf0S2F732eJ94ovaPtUSE_).
-  2. [Student Resources GSheet of Study Group Videos by Topic](https://drive.google.com/open?id=1CNGDhjcQZDRx2sWByd2v-mgUOjy13Cd_hQYVXPuzEDE)
+  2. [(New) Student Resources GSheet of Study Group Videos by Topic](https://docs.google.com/spreadsheets/d/1mdvxw0nZsPScAxyopVvPNPbUF34dzK6otIRgQvQN_Bc/edit?usp=sharing)
 
-    <details>
-    <summary style="font-weight:50%;">Student Resources GSheet Tab Info</summary>
-
-    | Student Resources Gsheet Tab | Contents | 
-    | --- | --- |
-    | Screencasts | Not much on this tab, skip it.|
-    | Study Groups V1 / Study Groups V2| A "best of" collection of study groups by all instructors|
-    | |Note: v1's sections numbers are a little different than your v2, so read the topic, not the section #|
-    |Peer 2 Peer Study Groups| Student-led study groups on misc. topics|
-    |Additional Topics | Additional instructor-led videos on topics beyond of Learn lessons|
-
-    </details>
 
 ___
 
@@ -147,109 +134,9 @@ ___
 
 - Schedule your first review as soon as possible, so you have sufficient time to re-present the project before the hard deadline.
 
-### HOW TO: PROJECT README, PLACEHOLDER VIDEO AND BLOG POST LINKS
-
-<details>
-  <summary style="font-weight:50%;">HOW TO USE PLACEHOLDER LINKS FOR Videos & Blog Posts</summary>
-
-- **I highly recommend making an account with a url-shortening service that allows you to edit the destination url *after creation*.**
-- I recommend www.rebrandly.com, but there are other services out there.
-
-#### Blog post: 
-  - Please think of at least a title for your blog post and  publish your rough draft/placeholder to get a blog post url.
-  - If you can't think of one, use an updatable short url from rebrandly.
-
-#### Video: two options.
-
-  - Create a shortened url that you can redirect (PREFERRED OPTION) 
-    - Use a placeholder YouTube video link to create your video url.
-    - Later on, you can come back to rebrandly to edit the link that your shortened url redirects to.
-  - Submit any YouTube video link, either appropriate or humorous, up to you (NON-PREFERRED OPTION)
-
-#### README: See below for instructions on turning your notebook into a README for your repo.
-</details>
-<!-- ## MOD 1
-
-[Rubric](https://drive.google.com/file/d/1trk8eamU3uLpsgdmEjt5x-zKg3kFuOja/view?usp=sharing)
-
-### Items due for Project
-  * Project Notebook(s)
-  * Slideshow (pdf)
-  * Slideshow Video
-  * Blog Post (1000 words)
-  * README.md  -->
-
-### How To: convert your project notebook into the repo's README
-
-**There are two methods:**
-
-1. Command line method:
-Launch a terminal in the same folder as your notebook.
-
-```bash
-
-jupyter nbconvert --to markdown notebook_name.ipynb
-mv README.md README_old.md
-mv notebook_name.md README.md
-```
-
-2. Jupyter Notebook GUI method:
-
-- Select `File` > `Download as` > `Markdown`
-  - Notebook + output images will be downloaded a zip file.
-  - Extract contents of zip folder to main folder of repo.
-  - Rename the original `README.md` to `README_old.md`
-  - Rename the notebook.md to `README.md`
-
 ___
 
-## III. HOW TO INSTALL UPDATED `learn-env` WITH THE NEW REPO/LESSON
-
-- Read and clone the new lesson's repo [GitHub Link](https://github.com/learn-co-curriculum/dsc-data-science-env)
-  - Clone repo: `git clone https://github.com/learn-co-curriculum/dsc-data-science-env`
-  - cd into repo: `cd dsc-data-science-env`
-  - If `learn-env` is already installed jump down to ["updating-your-virtual-environment"](https://github.com/learn-co-curriculum/dsc-data-science-env#updating-your-virtual-environment)
-    - Run these commands
-
-    ```shell
-      conda activate base # To make sure you're not in the learn-env environment
-      conda remove -n learn-env --all # To get rid of the environment
-      conda env list # Make sure it doesn't list learn-env - if it does, try the last step again
-      ```
-
-  - Enter the command to create `learn-env`:
-    ```bash
-    # for mac:
-    conda env create -f environment.yml
-    # for windows:
-    conda env create -f windows.yml
-    ```
-
-### Make sure learn shows up in your jupyter notebook kernels:
-
-- Type this command into terminal:<br>
-  `python -m ipykernel install --user --name=learn-env`
-
-### **To set learn-env as your default env** (so you won't have to activate it each time)
-
--  Enter the following command into your terminal (Windows Users See Warning Below)<br>
-`echo "conda activate learn-env" >> ~/.bash_profile` 
-- **BONUS HACK:** Run this to create a "jnb" shortcut that allows you to type `jnb` to open jupyter notebook.
-  ```echo "alias jnb='jupyter notebook'">>~/.bash_profile```
-  - Note: if you are using a different shell besides bash, you will need to find out its equivalent of `.bash_profile`
-
-- **NOTE: WINDOWS USERS WARNING, THE INSTRUCTIONS HAVE AN ERROR:**
-  - Change "conda activate learn-env" to whatever you normally type to activate your `learn-env`.
-    - For most windows users its actually "`source activate learn-env`".
-  - The corrected command is `echo "source activate learn-env" >> ~/.bash_profile`
-
-- **To manually make edits/corrections to your `.bash_profile`:**
-  - Launch a new terminal in its default folder (or type `cd ~`
-  - Then type `open .bash_profile`
-
-___
-
-## IV. Installing and activating Jupyter Notebook Extensions - [Study Group Video on JNE](https://youtu.be/Fl7Xwr_kUkw)
+## III. Installing and activating Jupyter Notebook Extensions - [Study Group Video on JNE](https://youtu.be/Fl7Xwr_kUkw)
 
 - In your terminal enter the following commands:
 
@@ -274,7 +161,7 @@ ___
 
 ___
 
-## V. Common Commands
+## IV. Common Commands
 
 <details>
 <summary style='font-weight:bold'>"Steps to push your changes to your repo"</summary>
@@ -328,60 +215,5 @@ frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; pict
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLj2HyUAn9lEnV4dfyda0ERy-9_jTsCNkc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<!--- Pair Programming Section 
-## Pair Programming Partners
-You need a zoom account or you can use slack video
 
-Procedures:
-* Person 1 is always host
-* Person 1 always fills out form
-* Do the section project (unless discussed with partner(s))
-* For now: Person 1 drives, other people steer
 
-| Section Number| Person 1 (host) | Person 2 |
-| --------------| ----------------| ---------|
-| | | |
---->
-
-<!--- paste pair programming table above --->
-
-<!--- Resources Section --->
-
-<!-- ## Resources  -->
-<!-- [**1 on 1s with Rafael/James - Instructor**](https://go.oncehub.com/FullTimeDataScience100719)
-
-[**1 on 1s with Dara - Education Coach**](https://darapaoletti.youcanbook.me) -->
-
-<!---[**About Me Survey** Please take this on Day 1](https://forms.gle/SJWWi5WJQsGRBitSA)--->
-
-<!-- [**Video Recording Spreadsheet Link**](https://docs.google.com/spreadsheets/d/1CNGDhjcQZDRx2sWByd2v-mgUOjy13Cd_hQYVXPuzEDE/edit#gid=0) -->
-
-<!--- Video Resources --->
-
-<!-- # Video Resources -->
-<!---
-## Welcome Week Recordings
-| Event | recording url |
-|-------|---------------|
-|Day 1 - Orientation | |
-|Day 2 - Meet Your Classmates| |
-|Day 3 - Community Talk | |
-|Day 4 - Hi From Career Services| |
-|Day 5 - Stress Less | |
---->
-
-<!----- Below are all of the Mod Project Rubrics in a table--->
-<!-- ## Project Rubrics + Video Explanation
-
-|Rubric | Video |
-|-------|-------|
-|[Mod 1](https://drive.google.com/file/d/1trk8eamU3uLpsgdmEjt5x-zKg3kFuOja/view?usp=sharing)| |
-|[Mod 3](https://drive.google.com/file/d/134VfqsXIpjBvQ01hEjeB2gD7at0Wex7W/view?usp=sharing)| |
-|[Mod 4](https://drive.google.com/file/d/1VJD5UKapqpM0XHK3Sz6-2Gn5Gb65R1xm/view?usp=sharing)| |
-|[Mod 5](https://drive.google.com/file/d/1QKA5Yt6hALy8BXkVbocHCdPkF_TdIwWm/view?usp=sharing)| |
-|[Capstone](https://drive.google.com/file/d/1smaVWyLLoRVg9yeMWAq0dLqQhbVQDFv2/view?usp=sharing)| |
-
-## Program Guide
-[Click here](https://help.learn.co/online-immersive-bootcamps/what-if-i-cant-keep-up-with-my-cohort)
-
--------- -->
